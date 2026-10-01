@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DecodeLabs | Mon Espace Développeur</title>
+  <link rel="stylesheet" href="projet1.css">
+  <!-- Google Fonts pour un rendu moderne et mignon -->
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="navbar">
+    <div class="logo">✨ Decode<span>Labs</span></div>
+    <nav>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#hero">Accueil</a></li>
+        <li><a href="#features">Services</a></li>
+        <li><a href="#stats">Progrès</a></li>
+        <li><a href="#contact" class="btn-primary">Me Contacter</a></li>
+      </ul>
+      <button class="burger" id="burgerBtn" aria-label="Toggle Navigation">🌸</button>
+    </nav>
+  </header>
+
+  <!-- Section Héro -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <span class="badge">🚀 Full Stack Project #1</span>
+      <h1>Créons des interfaces simples, élégantes & adorables ✨</h1>
+      <p>Bienvenue sur mon application web responsive. Conçue avec passion, précision et une touche de douceur.</p>
+      <div class="hero-buttons">
+        <button class="btn-main" onclick="showAlert()">Explorer l'App</button>
+        <a href="#features" class="btn-secondary">En savoir plus</a>
+      </div>
+    </div>
+    <div class="hero-card">
+      <div class="avatar">👩‍💻</div>
+      <h3>Senda Salhi</h3>
+      <p class="role">Full Stack Developer Intern</p>
+      <div class="tags">
+        <span>HTML5</span>
+        <span>CSS3</span>
+        <span>JS</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Fonctionnalités (Cards Mignonnes) -->
+  <section class="features" id="features">
+    <h2 class="section-title">Ce que nous construisons 💡</h2>
+    <div class="cards-grid">
+      <div class="card">
+        <div class="icon-bubble">🎨</div>
+        <h3>Design Doux & Cute</h3>
+        <p>Des couleurs pastel apaisantes, des angles arrondis et des ombres délicates pour une expérience agréable.</p>
+      </div>
+      <div class="card">
+        <div class="icon-bubble">📱</div>
+        <h3>100% Responsive</h3>
+        <p>S'adapte parfaitement à tous les écrans : smartphones, tablettes et ordinateurs de bureau.</p>
+      </div>
+      <div class="card">
+        <div class="icon-bubble">⚡</div>
+        <h3>Code Pro & Sémantique</h3>
+        <p>Propre, bien structuré et facilement maintenable selon les standards de l'industrie.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>Fait avec ❤️ pour le programme de stage <strong>DecodeLabs 2026</strong></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
